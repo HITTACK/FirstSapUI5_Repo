@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.demo.firstsapui5.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <!-- this is view container -->
+    <App id="app">
+    </App>
+</mvc:View>
