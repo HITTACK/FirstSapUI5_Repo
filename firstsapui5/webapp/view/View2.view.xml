@@ -1,9 +1,9 @@
 <mvc:View controllerName="com.demo.firstsapui5.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page2" title="This is View2">
+    <Page id="page2" title="This is View2" showNavButton="true" navButtonPress="onBackToView1">
         <content>
-            <Button id="Button2" text = "This is second View"></Button>
+            <!-- <Button id="Button2" text = "Go back to First View" press="onBackToView1"></Button> -->
         </content>
     </Page>
 </mvc:View>

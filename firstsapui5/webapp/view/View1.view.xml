@@ -3,7 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="This is View1">
         <content>
-            <Button id="Button1" text = "Harshit is here"></Button>
+            <Button id="Button1" text = "Go to Second View" press="onPress"></Button>
             <!-- <Label text="Dummy Text"></Label> -->
         </content>
     </Page>
