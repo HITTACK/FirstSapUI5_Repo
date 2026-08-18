@@ -4,6 +4,7 @@
     <Page id="page" title="This is View1">
         <content>
             <Button id="Button1" text = "Harshit is here"></Button>
+            <Label text="Dummy Text"></Label>
         </content>
     </Page>
 </mvc:View>
