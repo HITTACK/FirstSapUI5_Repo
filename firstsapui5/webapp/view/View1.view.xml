@@ -3,9 +3,12 @@
     xmlns="sap.m">
     <Page id="page" title="This is View1">
         <content>
-            
+            <Text id="idTextWelcome" text="Welcome To SAPUI5" textAlign="Center" width="100%" class="sapMH1FontSize"></Text>
+
             <Label text="Enter your name" required="true" class="sapUiTinyMarginTop"></Label>
-            <Input width="30%" class="sapUiSmallMarginBegin" placeholder="Name"></Input>
+            <Input id="idInputName" width="30%" class="sapUiSmallMarginBegin" placeholder="Name"></Input>
+            <Button id="idSubmit" text="Submit" type="Emphasized" class="sapUiTinyMarginBegin" press="onSubmit"></Button>
+            <Button id="idBack" text="Back" type="Reject" class="sapUiTinyMarginBegin" press="onBack"></Button>
             
         </content>
         <footer>
