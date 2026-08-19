@@ -3,8 +3,17 @@
     xmlns="sap.m">
     <Page id="page" title="This is View1">
         <content>
-            <Button id="Button1" text = "Go to Second View" press="onPress"></Button>
-            <!-- <Label text="Dummy Text"></Label> -->
+            
+            <Label text="Enter your name" required="true" class="sapUiTinyMarginTop"></Label>
+            <Input width="30%" class="sapUiSmallMarginBegin" placeholder="Name"></Input>
+            
         </content>
+        <footer>
+            <Bar >
+                <contentRight>
+                    <Button id="Button1" text = "Go to Second View" press="onPress" type="Emphasized"></Button>
+                </contentRight>
+            </Bar>
+        </footer>
     </Page>
 </mvc:View>
