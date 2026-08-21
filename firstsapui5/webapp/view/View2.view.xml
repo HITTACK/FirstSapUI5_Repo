@@ -3,7 +3,14 @@
     xmlns="sap.m">
     <Page id="page2" title="This is View2" showNavButton="true" navButtonPress="onBackToView1">
         <content>
-            <!-- <Button id="Button2" text = "Go back to First View" press="onBackToView1"></Button> -->
+            <Button id="Button2" text="Go back to First View" press="onBackToView1"></Button>
         </content>
+        <footer>
+            <Bar id="bar1">
+                <contentRight>
+                    <Button id="Button3" text="Go to third View" press="onPress" type="Emphasized"></Button>
+                </contentRight>
+            </Bar>
+        </footer>
     </Page>
 </mvc:View>

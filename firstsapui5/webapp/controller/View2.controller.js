@@ -10,6 +10,9 @@ sap.ui.define([
             //this.getOwnerComponent().getRouter().navTo("RouteView1");
             // for back, we don't have to write above statement. Instead of this, use below code.
             history.go(-1);
-        }
+        },
+            onPress: function () {
+            this.getOwnerComponent().getRouter().navTo("RouteView3");
+        },
     });
 });

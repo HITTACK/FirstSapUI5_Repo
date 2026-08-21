@@ -38,7 +38,8 @@
       "minUI5Version": "1.151.0",
       "libs": {
         "sap.m": {},
-        "sap.ui.core": {}
+        "sap.ui.core": {},
+        "sap.ui.layout": {}
       }
     },
     "contentDensities": {
@@ -86,6 +87,13 @@
           "target": [
             "TargetView2"
           ]
+        },
+        {
+          "name": "RouteView3",
+          "pattern": "thirdView",
+          "target": [
+            "TargetView3"
+          ]
         }
       ],
       "targets": {
@@ -102,6 +110,13 @@
           "clearControlAggregation": false,
           "id": "View2",
           "name": "View2"
+        },
+        "TargetView3": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "id": "View3",
+          "name": "View3"
         }
       }
     },
